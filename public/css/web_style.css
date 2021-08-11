@@ -1,0 +1,59 @@
+
+/* General rules */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: ghostwhite;
+
+}
+
+.nav_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_title {
+    text-align: center;
+
+}
+
+.nav_container_link {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 900;
+    
+
+}
+
+.nav_link {
+    border-radius: 5px;
+    width: 280px;
+    padding: 10px 5px 10px 5px;
+    margin: 3px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.nav_img {
+    width: 280px;
+    margin-top: 40px;
+
+}
+
+.nav_paragraph {
+    margin-top: 20px;
+    width: 290px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
