@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,900;1,400&display=swap" rel="stylesheet">
-</head>
+</head> 
 <body>
     <div class="wrapper" id="TOP">
         <header class="nav_wrapper">
@@ -19,14 +19,17 @@
                 <a class="nav_link"><span>PORTFOLIO</span></a>
                 <a class="nav_link"><span>CONTACT</span></a>
             </nav>
+            <div class="float">
             <img class="nav_img" src="./images/responsive-layout-profile.png"/>
             <p class="nav_paragraph">Hi! I am a front end developers who loves responsive 
                 design and css. I recently finished a degree in front-end web development at
                 treehouse and am exicited to pull all my skills to use!
             </p>
+            </div>
         </header>
         <section class="portfolio_wrapper">
             <h2 class="portfolio_title">PORTFOLIO</h2>
+            <div class="portfolio_wrapper1">
             <div class="portfolio_item">
                 <img class="portfolio_img" src="./images/portfolio-1.png"/>
                 <h3 class="portfolio_item_title"><strong>Marketing Page</strong></h3>
@@ -57,9 +60,10 @@
                 <h3 class="portfolio_item_title"><strong>Calculator</strong></h3>
                 <p class="portfolio_item_paragraph">This project shows the front page of marketing website meant for a specific business I'm interested in.</p>
             </div>
+        </div>
         </section>
         <footer class=footer_wrapper>
-            <h2>CONTACT</h2>
+            <h2 class="footer_title">CONTACT</h2>
             <P class="footer_paragraph">If you're interested in chatting or want more infomation about what I've 
                 been working on, I'd love to hear from you!
             </P>
@@ -67,8 +71,12 @@
             <span class="footer_info2">Email: <strong>email@yoursite.com</strong></span>
             <div class="footer_row">
                 <h4 class="footer_row_title">Student Name</h4>
-                <a class="footer_row_link" href="#TOP"><h4 >Back To Top</h4></a>
-            </div>
+                <a class="footer_row_link mobile" href="#TOP"><h4 >Back To Top</h4></a>
+                <div class="footer_nav table">
+                    <a class="footer_row_link table" ><h4 >HOME</h4></a>
+                    <a class="footer_row_link table"><h4>PORTFOLIO</h4></a>
+                    <a class="footer_row_link table"><h4>CONTACT</h4></a>
+                </div>
         </footer>
 
     </div>

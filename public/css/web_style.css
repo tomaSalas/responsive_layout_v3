@@ -58,15 +58,24 @@ body {
 }
 
 .portfolio_wrapper {
+    width: 320px;
     background-color: #fff;
+}
+
+.portfolio_wrapper1 {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
+
 }
+
 
 .portfolio_item {
     width: 320px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
 }
@@ -135,6 +144,111 @@ line-height: 1.5;
 
 
 }
+
+.footer_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.table {
+    display: none;
+
+}
+@media screen and (min-width: 600px) {
+    .wrapper {
+      min-width: 768px;
+      width: 100%;
+      background-color: blue;
+    }
+
+    .nav_container_link {
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 768px;
+        background-color: hotpink;
+    }
+
+    .nav_link {
+        border-radius: 0px;
+        width: 100px;
+        background-color: blue;
+
+
+    }
+
+    .float {
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+    }
+
+    .nav_paragraph {
+        float: left;
+        text-align: left;
+        margin-right: 30px;
+        width: 315px;
+    }
+    .nav_img {
+        margin-top: 0px;
+    }
+
+    .portfolio_title {
+        display: block;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+   
+    }
+
+    .portfolio_wrapper {
+        width: 768px;
+        background-color: #fff;
+
+    }
+
+    .portfolio_wrapper1 {
+        flex-direction: row;
+    }
+
+    .footer_wrapper {
+        width: 768px;
+    }
+
+    .footer_title {
+        margin-top: 60px;
+        font-size: 1rem;
+    }
+
+    .footer_paragraph {
+        margin-top: 30px;
+        width: 403px;
+    }
+
+    .footer_row {
+
+        width: 768px;
+    }
+
+    .footer_info {
+        margin-top: 40px;
+    }
+
+   .mobile {
+       display: none;
+   }
+
+   
+   .table {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   }
+   
+
+
+  }
 
 
 
