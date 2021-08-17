@@ -254,16 +254,16 @@ line-height: 1.5;
 
   }
 
-  @media screen and (min-width: 1020px) {
+  @media screen and (min-width: 1024px) {
 
     .wrapper {
-        min-width: 1020px;
+        min-width: 1024px;
         width: 100%;
       }
 
     .nav_wrapper {
         width: 100%;
-        max-width: 1020px;
+        max-width: 1024px;
     }
 
     .nav_media_wrapper {
@@ -291,14 +291,14 @@ line-height: 1.5;
 
     .portfolio_wrapper {
         width: 100%;
-        max-width: 1020px;
+        max-width: 1024px;
         background-color: #fff;
 
     }
 
     .footer_wrapper {
         width: 100%;
-        max-width: 1020px;
+        max-width: 1024px;
     }
 
 
